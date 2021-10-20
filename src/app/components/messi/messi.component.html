@@ -1,0 +1,19 @@
+<div *ngFor="let messi of messi">
+    <div class="container-main">
+        <h2>Infografia {{messi.nombre}}</h2>
+        <div class="centrar">
+            <div class="card-deck">
+                <div class="card">
+                    <img class="card-img-top" [src]="messi.img">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        Nombre: {{messi.nombre}} <br> Bio: {{messi.bio}} <br> Equipo: {{messi.equipo}} <br> Imagen: {{messi.img}} <br> Nacimiento: {{messi.nacimiento}} <br> Seleccion: {{messi.seleccion}}
+    </div>
+    <div class="boton">
+        <a [routerLink]="['/jugadores']" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Home</a>
+    </div>
+</div>

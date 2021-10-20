@@ -1,0 +1,22 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    min-height: 60px;
+    background: rgb(14, 104, 62);
+    margin-bottom: 30px;
+}
+
+#titulo_1 {
+    display: inline-block;
+    color: white;
+    margin-left: 25px;
+}
+
+#titulo_2 {
+    float: right;
+    color: white;
+    margin-right: 25px;
+}

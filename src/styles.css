@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+
+body {
+    overflow: auto;
+}
+
+.footer {
+    text-align: center;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 20vh;
+    background: rgb(14, 104, 62);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#pfooter {
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
